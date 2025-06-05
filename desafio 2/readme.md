@@ -58,41 +58,87 @@ O desafio consiste em ir acompanhando os vídeos onde o instrutor vai fazendo a 
 
     **PS: Eu não usei o Excel e sim o LibreOffice Calc para o desafio.**
 
-0 - Introdução
+0 \- Introdução
 
 Alguns breves comentários do instrutor sobre o desafio.
 
-1 - Menu
+1 \- Menu
 
+Aqui eu só preparei a base da interface, não ficou muito bonita, mas eu não queria perder muito tempo aqui.
 
+![print](imagens/1a.png)
 
-2 - Menu itens
+2 \- Menu items
 
+so adicionei um pouco mais de interface e linquei elas de modo que ao pressionar uma dos botes ele vai para a planilha de link, exemplo ao clicar no botão notas ele abre a parte da planilha de notas
 
+![print](imagens/2a.png)
 
-3 - Criando uma função de excel
+![print](imagens/2b.png)
 
+3 \- Criando uma função de excel
 
+Nessa ele mostrou um código em VBA para ajudar a posicionar os ícones sempre em uma posição independente da planilha que você coloque nele. no caso só prestei atenção no vídeo e não fiz pois não achei necessário no atual projeto.
 
-4 - Formulário titular
+Além de que o LibreOffice não usa o VBC e sim o StarBasic, mas usei o chat GPT para adaptar o código para ele
 
+| Sub MoverFormaParaPosicao     Dim oDoc As Object     Dim oPlanilha As Object     Dim oDesenhos As Object     Dim oForma As Object     Dim nomeIconeProcurado As String     Dim novaPosicaoX As Long     Dim novaPosicaoY As Long     Dim i As Integer     Dim achou As Boolean     oDoc \= ThisComponent     oPlanilha \= oDoc.Sheets(0) ' Altere o índice se quiser outra planilha     oDesenhos \= oPlanilha.DrawPage     nomeIconeProcurado \= "Ícone 1" ' \<-- Troque aqui pelo nome do seu ícone     novaPosicaoX \= 2500 ' em 1/100 mm (por exemplo, 2500 \= 2,5 cm)     novaPosicaoY \= 1000 ' em 1/100 mm (por exemplo, 1000 \= 1 cm)     achou \= False     For i \= 0 To oDesenhos.Count \- 1         oForma \= oDesenhos.getByIndex(i)         If oForma.Name \= nomeIconeProcurado Then             oForma.setPosition(com.sun.star.awt.Point(novaPosicaoX, novaPosicaoY))             MsgBox "Ícone '" & nomeIconeProcurado & "' movido com sucesso\!"             achou \= True             Exit For         End If     Next i     If Not achou Then         MsgBox "Ícone '" & nomeIconeProcurado & "' não encontrado."     End If End Sub |
+| :---- |
 
+4 \- Formulário titular
 
-5 - Formatações personalizadas
+Criei a base visual para o preenchimento dos dados
 
+![print](imagens/3a.png)
 
+5 \- Formatações personalizadas
 
-6 - Tela de Informes
+Aqui só foi feita fórmulas para que os dados digitados sejam formados já de forma correspondente
 
+veja um print da do cpf (qualquer número digitado ao final vai ser formato visualmente)
 
+![print](imagens/4a.png)
 
-7 - Tela de Notas
+a formatação condicional ocorreu para
 
+CPF 000"."000"."000"-"00  
+CEP 00000"-"000  
+TELEFONE "("00")"0000"-"0000  
+CELULAR "("00")"00000"-"0000
 
+6 \- Tela de Informes
 
-9 - Toques Finais
+Nessa tela criei um visual para a tela de informes e criei uma tabela de apoio para os códigos bancários, onde através da validação de dados dá pra escolher lá o banco.
 
+![print](imagens/5a.png)
 
+![print](imagens/5b.png)
+
+![print](imagens/5c.png)
+
+![print](imagens/5d.png)
+
+![print](imagens/5e.png)
+
+7 \- Tela de Notas
+
+Definição do layout e preenchimento com dados aleatórios.
+
+![print](imagens/6a.png)
+
+![print](imagens/6b.png)
+
+9 \- Toques Finais
+
+Essa aula foi apenas ensinando a deixar o layout mais bonito e como colocar alguns gráficos, exibir certos elementos e como colocar uma senha, tanto geral como para alguns elementos, apenas assisti.
+
+mas veja os prints finais da tabela
+
+![print](imagens/7a.png)
+
+![print](imagens/7b.png)
+
+![print](imagens/7c.png)
 
 ## **Ferramentas Usadas:**
 
