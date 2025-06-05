@@ -1,6 +1,6 @@
 ﻿# **Módulo 2 - Criando Um Organizador de Declaração de Imposto de Renda**
 
-## > **Concluído em /06/2025**
+## > **Concluído em 05/06/2025**
 
 ## **Texto do Desafio:**
 
