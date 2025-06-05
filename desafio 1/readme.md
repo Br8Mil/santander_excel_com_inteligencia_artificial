@@ -22,11 +22,26 @@ O projeto consiste na criação de uma ferramenta simples em Excel para simular 
 * Opcionalmente, capturas de tela relevantes organizadas em uma pasta /images   
 * Enviar o link do seu repositório e uma breve descrição clicando no botão “Entregar Projeto”.
 
+**Outros**
+
+[Simulador_Investimentos_Fundos_Imobiliarios_Excel_Resolvido.xlsx](https://hermes.dio.me/files/assets/a04b81b1-8e35-4e72-aeb9-98aed8ed4403.xlsx) - Arquivo com a planilha resolvida para simulação de investimentos em fundos imobiliários.
+
+**Materiais Complementares sobre GitHub**
+
+[GitHub Quick Start](https://github.com/digitalinnovationone/github-quickstart) - Repositório com Link para Aulas de Git e GitHub
+
+[GitBook: Formação GitHub Certification](https://aline-antunes.gitbook.io/formacao-fundamentos-github) - Material textual sobre GitHub
+[Documentação do GitHub](https://docs.github.com/) - Guia completo para uso do GitHub
+
+[GitHub Markdown](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) - Guia específico para Markdown no GitHub
+
+## **Resolução do Desafio (explicações e prints):**
+
 **MINHA DESCRIÇÃO:**
 
-O desafio consiste em ir acompanhando os vídeos onde o instrutor vai fazendo a sua versão e você com esse conhecimento constroi a sua. Os vídeos são divididos nas categorias abaixo.
+O desafio consiste em ir acompanhando os vídeos onde o instrutor vai fazendo a sua versão e você com esse conhecimento constroi a sua versão. Os vídeos são divididos nas categorias abaixo.
 
-**PS: Eu não usei o Excel e sim o LibreOffice Calc para o desafio.**
+    **PS: Eu não usei o Excel e sim o LibreOffice Calc para o desafio.**
 
 0 \- introdução
 
@@ -136,14 +151,6 @@ usando a fórmula PROCV para usar a tabela de apoio para mudar os valores.
 
 ![print](imagens/Final.png)
 
------------------------------------------------------------------------------------------------------------------------------
-[Simulador_Investimentos_Fundos_Imobiliarios_Excel_Resolvido.xlsx](https://hermes.dio.me/files/assets/a04b81b1-8e35-4e72-aeb9-98aed8ed4403.xlsx) - Arquivo com a planilha resolvida para simulação de investimentos em fundos imobiliários.
+## **Ferramentas Usadas:**
 
-**Materiais Complementares sobre GitHub**
-
-[GitHub Quick Start](https://github.com/digitalinnovationone/github-quickstart) - Repositório com Link para Aulas de Git e GitHub
-
-[GitBook: Formação GitHub Certification](https://aline-antunes.gitbook.io/formacao-fundamentos-github) - Material textual sobre GitHub
-[Documentação do GitHub](https://docs.github.com/) - Guia completo para uso do GitHub
-
-[GitHub Markdown](https://docs.github.com/pt/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) - Guia específico para Markdown no GitHub
+[LibreOffice](https://pt-br.libreoffice.org/baixe-ja/libreoffice-novo/)
